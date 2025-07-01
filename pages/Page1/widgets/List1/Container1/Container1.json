@@ -1,0 +1,135 @@
+{
+  "animateLoading": true,
+  "backgroundAttachment": "fixed",
+  "backgroundBlendMode": "normal",
+  "backgroundColor": "white",
+  "backgroundImage": "https://assets.appsmith.com/widgets/default.png",
+  "backgroundPosition": "center",
+  "backgroundRepeat": "no-repeat",
+  "backgroundSize": "auto",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 47,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 470,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "buttonColor"
+        },
+        {
+          "key": "progressBarFillColor"
+        },
+        {
+          "key": "iconFillColor"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "iconFillColor": "{{appsmith.theme.colors.primaryColor}}",
+      "isLoading": false,
+      "isVisible": true,
+      "key": "133fwai2vx",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minWidth": 450,
+      "mobileLeftColumn": 0,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "llwnjq9yz6",
+      "parentRowSpace": 1,
+      "progressBarFillColor": "{{appsmith.theme.colors.primaryColor}}",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": false,
+      "version": 1,
+      "widgetId": "sjfef89lns",
+      "widgetName": "Canvas2"
+    }
+  ],
+  "containerStyle": "card",
+  "disabledWidgetFeatures": [
+    "dynamicHeight"
+  ],
+  "disallowCopy": true,
+  "dragDisabled": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "progressBarFillColor"
+    },
+    {
+      "key": "iconFillColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "emptyStateActionButtonLabel": "Button",
+  "emptyStateDescription": "Empty state description",
+  "emptyStateIconName": "document",
+  "emptyStateTitle": "Empty state title",
+  "errorStateActionButtonLabel": "Button",
+  "errorStateDescription": "Error state description",
+  "errorStateIconName": "error",
+  "errorStateTitle": "Error state title",
+  "flexVerticalAlignment": "stretch",
+  "iconFillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "isBackgoundClickDisabled": true,
+  "isBackgroundImageEnabled": false,
+  "isCanvas": true,
+  "isDeletable": false,
+  "isListItemContainer": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "v7b56yo7a8",
+  "leftColumn": 0,
+  "loadingStateIconName": "data-connection",
+  "loadingStateTitle": "Data loading",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "noContainerOffset": true,
+  "parentId": "0u7m8z8ooz",
+  "positioning": "fixed",
+  "progressBarFillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "llwnjq9yz6",
+  "widgetName": "Container1"
+}

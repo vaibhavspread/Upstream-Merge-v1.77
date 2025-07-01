@@ -1,0 +1,15 @@
+query MyQuery {
+  users {
+    items {
+      name
+      email
+    }
+  }
+  apps {
+    items {
+      appID
+      id
+      name
+    }
+  }
+}

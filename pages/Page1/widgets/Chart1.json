@@ -1,0 +1,122 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowScroll": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 39,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "chartData": {
+    "jc492l4624": {
+      "data": [
+        {
+          "x": "Product1",
+          "y": 20000
+        },
+        {
+          "x": "Product2",
+          "y": 22000
+        },
+        {
+          "x": "Product3",
+          "y": 32000
+        }
+      ],
+      "seriesName": "2023"
+    }
+  },
+  "chartName": "Sales Report",
+  "chartType": "CUSTOM_ECHART",
+  "customEChartConfig": "{{ ((chartType) => (  {\n    \"grid3D\": {\n      \"top\": 0,\n      \"bottom\": 0\n    },\n    \"tooltip\": {},\n    \"xAxis3D\": {\n      \"type\": \"category\"\n    },\n    \"yAxis3D\": {\n      \"type\": \"category\"\n    },\n    \"zAxis3D\": {},\n    \"visualMap\": {\n      \"max\": 100000000,\n      \"dimension\": \"Population\",\n      \"bottom\": -50\n    },\n    \"dataset\": {\n      \"dimensions\": [\n        \"Income\",\n        \"Life Expectancy\",\n        \"Population\",\n        \"Country\",\n        {\n          \"name\": \"Year\",\n          \"type\": \"ordinal\"\n        }\n      ],\n      \"source\": [\n        [\"Income\", \"Life Expectancy\", \"Population\", \"Country\", \"Year\"],\n        [37599, 81.9, 64395345, \"France\", 2015],\n        [44053, 81.1, 80688545, \"Germany\", 2015],\n        [42182, 82.8, 329425, \"Iceland\", 2015],\n        [5903, 66.8, 1311050527, \"India\", 2015],\n        [36162, 83.5, 126573481, \"Japan\", 2015],\n        [1390, 71.4, 25155317, \"North Korea\", 2015],\n        [34644, 80.7, 50293439, \"South Korea\", 2015],\n        [34186, 80.6, 4528526, \"New Zealand\", 2015],\n        [64304, 81.6, 5210967, \"Norway\", 2015],\n        [24787, 77.3, 38611794, \"Poland\", 2015],\n        [23038, 73.13, 143456918, \"Russia\", 2015],\n        [19360, 76.5, 78665830, \"Turkey\", 2015],\n        [38225, 81.4, 64715810, \"United Kingdom\", 2015],\n        [53354, 79.1, 321773631, \"United States\", 2015]\n      ]\n    },\n    \"series\": [\n      {\n        \"type\": \"bar3D\",\n        \"shading\": \"lambert\",\n        \"encode\": {\n          \"x\": \"Year\",\n          \"y\": \"Country\",\n          \"z\": \"Life Expectancy\",\n          \"tooltip\": [0, 1, 2, 3, 4]\n        }\n      }\n    ]\n  }))(Chart1.chartType) }}",
+  "customFusionChartConfig": {
+    "dataSource": {
+      "chart": {
+        "alignCaptionWithCanvas": 1,
+        "canvasPadding": "0",
+        "caption": "Sales Report",
+        "captionAlignment": "center",
+        "captionFontColor": "#231F20",
+        "captionFontSize": "24",
+        "captionPadding": "20",
+        "chartBottomMargin": "10",
+        "chartLeftMargin": "20",
+        "chartRightMargin": "40",
+        "chartTopMargin": "10",
+        "labelFontColor": "#716e6e",
+        "labelFontSize": "12",
+        "legendIconAlpha": "100",
+        "legendIconBgAlpha": "100",
+        "legendIconSides": "4",
+        "legendPosition": "top",
+        "theme": "fusion",
+        "xAxisName": "Product Line",
+        "xAxisNameFontColor": "#716e6e",
+        "xAxisNameFontSize": "14",
+        "yAxisName": "Revenue($)",
+        "yAxisNameFontColor": "#716e6e",
+        "yAxisNameFontSize": "14",
+        "yAxisValueFontColor": "#716e6e",
+        "yAxisValueFontSize": "12"
+      },
+      "data": [
+        {
+          "label": "Product1",
+          "value": 20000
+        },
+        {
+          "label": "Product2",
+          "value": 22000
+        },
+        {
+          "label": "Product3",
+          "value": 32000
+        }
+      ]
+    },
+    "type": "column2d"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "customEChartConfig"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "728alpf2yk",
+  "labelOrientation": "auto",
+  "leftColumn": 22,
+  "minWidth": 450,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 19,
+  "needsErrorInfo": true,
+  "parentColumnSpace": 16.6875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 46,
+  "showDataPointLabel": false,
+  "topRow": 7,
+  "type": "CHART_WIDGET",
+  "version": 1,
+  "widgetId": "utlm6zrown",
+  "widgetName": "Chart1",
+  "xAxisName": "Product Line",
+  "yAxisName": "Revenue($)"
+}
