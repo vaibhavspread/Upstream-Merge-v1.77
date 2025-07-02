@@ -2647,66 +2647,20 @@
   "modifiedResources": {
     "isAllModified": false,
     "modifiedResourceIdentifiers": {
-      "context_config": [
-        "68639ae0d50c76376616c4b2_5f5cc99d-128e-4589-aba0-56efd546b445",
-        "68639ae0d50c76376616c4b2_b089eb60-96fa-4651-b22f-ac1db7b3d7cc",
-        "68639ae0d50c76376616c4b2_8e3a6fba-d3d3-4009-a60a-734309b3711b",
-        "68639ae0d50c76376616c4b2_fa593aa5-ce9e-4288-a83d-ce6df18cef7c",
-        "68639ae0d50c76376616c4b2_bddf1b4f-ce35-45ed-89af-6994e4d0e2c9",
-        "68639ae0d50c76376616c4b2_1b3e1367-817e-4a70-bd47-d1bd0740b02c",
-        "68639ae0d50c76376616c4b2_59b4be83-bdad-467b-b185-ce83df1d6cee"
-      ],
+      "context_config": [],
       "jslib_config": [],
       "jsobject_config": [
         "68639ae0d50c76376616c4b2_5ada397b-f19d-43c1-8a5e-adb70e18274e"
       ],
-      "query_config": [
-        "68639ae0d50c76376616c4b2_cf55f611-1461-4b30-9494-9e91fd953e16",
-        "68639ae0d50c76376616c4b2_60ebaf75-672d-4a0d-8362-800e0b962822",
-        "68639ae0d50c76376616c4b2_b0b4d68a-deb9-4602-9d54-54cea0234691",
-        "68639ae0d50c76376616c4b2_6167db68-a505-439d-b9b0-8fdf439c29fd",
-        "68639ae0d50c76376616c4b2_ebcfda23-defb-4a91-83a1-70125db3de75",
-        "68639ae0d50c76376616c4b2_20e4a821-b621-46c2-be3d-df8e004bef8d",
-        "68639ae0d50c76376616c4b2_0302ac97-f239-4007-9120-cdda529be9a7",
-        "68639ae0d50c76376616c4b2_f5cb4ee0-d552-4f89-9c07-ac48204acf36",
-        "68639ae0d50c76376616c4b2_1c239ceb-e21c-4882-8b0d-72e1a1efe544",
-        "68639ae0d50c76376616c4b2_346cf2eb-db03-4ed2-9cbb-b5b3e5228fca",
-        "68639ae0d50c76376616c4b2_40edeb6a-4f3b-49fb-8e53-a3b3ba011ef9",
-        "68639ae0d50c76376616c4b2_1c17c070-c832-42f7-9b83-74d124afc5e7",
-        "68639ae0d50c76376616c4b2_b5f1bc19-fbd2-43cb-bd8c-fc1cd1bb6d1f",
-        "68639ae0d50c76376616c4b2_1066b0cf-8ebe-401e-ab3f-4d6971c1b3e0"
-      ]
+      "query_config": []
     },
     "modifiedResourceMap": {
       "actionCollectionList": [
         "JSObject1##ENTITY_SEPARATOR##Page2"
       ],
-      "actionList": [
-        "FindQuery##ENTITY_SEPARATOR##Movies",
-        "InsertQuery##ENTITY_SEPARATOR##Movies2",
-        "DeleteQuery##ENTITY_SEPARATOR##Movies",
-        "FindQuery##ENTITY_SEPARATOR##Movies2",
-        "JSObject1.myFun2##ENTITY_SEPARATOR##Page2",
-        "Api11##ENTITY_SEPARATOR##Page1 Copy",
-        "InsertQuery##ENTITY_SEPARATOR##Movies",
-        "Api1Copy##ENTITY_SEPARATOR##Page1 Copy",
-        "UpdateQuery##ENTITY_SEPARATOR##Movies",
-        "JSObject1.myFun1##ENTITY_SEPARATOR##Page2",
-        "UpdateQuery##ENTITY_SEPARATOR##Movies2",
-        "DeleteQuery##ENTITY_SEPARATOR##Movies2",
-        "Api1##ENTITY_SEPARATOR##Page1",
-        "Api1##ENTITY_SEPARATOR##Page2"
-      ],
+      "actionList": [],
       "customJSLibList": [],
-      "pageList": [
-        "Page3",
-        "Page4",
-        "Page1 Copy",
-        "Page1",
-        "Movies2",
-        "Page2",
-        "Movies"
-      ]
+      "pageList": []
     }
   },
   "pageList": [
@@ -15101,7 +15055,7 @@
             "deleted": false,
             "dsl": {
               "backgroundColor": "none",
-              "bottomRow": 400.0,
+              "bottomRow": 600.0,
               "canExtend": true,
               "children": [
                 {
@@ -15257,6 +15211,119 @@
                   "version": 1.0,
                   "widgetId": "ycr12d6a90",
                   "widgetName": "Select1"
+                },
+                {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "allowCurrencyChange": false,
+                  "animateLoading": true,
+                  "autoFocus": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "bottomRow": 60.0,
+                  "boxShadow": "none",
+                  "decimals": 0.0,
+                  "defaultCurrencyCode": "INR",
+                  "defaultText": "",
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "accentColor"
+                    },
+                    {
+                      "key": "borderRadius"
+                    }
+                  ],
+                  "dynamicHeight": "FIXED",
+                  "iconAlign": "left",
+                  "isDisabled": false,
+                  "isLoading": false,
+                  "isRequired": false,
+                  "isVisible": true,
+                  "key": "1tfa6fjcoh",
+                  "label": "Label",
+                  "labelAlignment": "left",
+                  "labelPosition": "Top",
+                  "labelStyle": "",
+                  "labelTextSize": "0.875rem",
+                  "labelWidth": 5.0,
+                  "leftColumn": 3.0,
+                  "maxDynamicHeight": 9000.0,
+                  "minDynamicHeight": 4.0,
+                  "minWidth": 450.0,
+                  "mobileBottomRow": 60.0,
+                  "mobileLeftColumn": 3.0,
+                  "mobileRightColumn": 23.0,
+                  "mobileTopRow": 53.0,
+                  "needsErrorInfo": false,
+                  "parentColumnSpace": 16.6875,
+                  "parentId": "0",
+                  "parentRowSpace": 10.0,
+                  "renderMode": "CANVAS",
+                  "resetOnSubmit": true,
+                  "responsiveBehavior": "fill",
+                  "rightColumn": 23.0,
+                  "showStepArrows": false,
+                  "topRow": 53.0,
+                  "type": "CURRENCY_INPUT_WIDGET",
+                  "version": 1.0,
+                  "widgetId": "1nv97vhyjz",
+                  "widgetName": "CurrencyInput1"
+                },
+                {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "animateLoading": true,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "bottomRow": 16.0,
+                  "boxShadow": "none",
+                  "defaultOptionValue": "GREEN",
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "accentColor"
+                    },
+                    {
+                      "key": "borderRadius"
+                    }
+                  ],
+                  "dynamicHeight": "FIXED",
+                  "dynamicPropertyPathList": [
+                    {
+                      "key": "sourceData"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "isFilterable": true,
+                  "isLoading": false,
+                  "isRequired": false,
+                  "isVisible": true,
+                  "key": "ui3jm46ld6",
+                  "labelAlignment": "left",
+                  "labelPosition": "Top",
+                  "labelText": "Label",
+                  "labelTextSize": "0.875rem",
+                  "labelWidth": 5.0,
+                  "leftColumn": 0.0,
+                  "maxDynamicHeight": 9000.0,
+                  "minDynamicHeight": 4.0,
+                  "minWidth": 450.0,
+                  "mobileBottomRow": 16.0,
+                  "mobileLeftColumn": 0.0,
+                  "mobileRightColumn": 14.0,
+                  "mobileTopRow": 9.0,
+                  "needsErrorInfo": false,
+                  "optionLabel": "name",
+                  "optionValue": "code",
+                  "parentColumnSpace": 14.8125,
+                  "parentId": "0",
+                  "parentRowSpace": 10.0,
+                  "placeholderText": "Select option",
+                  "renderMode": "CANVAS",
+                  "responsiveBehavior": "fill",
+                  "rightColumn": 14.0,
+                  "serverSideFiltering": false,
+                  "sourceData": "[\n  {\n    \"name\": \"Blue\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Green\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Red\",\n    \"code\": \"RED\"\n  }\n]",
+                  "topRow": 9.0,
+                  "type": "SELECT_WIDGET",
+                  "version": 1.0,
+                  "widgetId": "uc3hp388u5",
+                  "widgetName": "Select2"
                 }
               ],
               "containerStyle": "none",
