@@ -19,7 +19,7 @@
   "pages": [
     {
       "id": "Page1",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Page2",
@@ -48,6 +48,10 @@
     {
       "id": "Page5",
       "isDefault": false
+    },
+    {
+      "id": "Homepage",
+      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {
