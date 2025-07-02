@@ -2643,68 +2643,20 @@
   "modifiedResources": {
     "isAllModified": false,
     "modifiedResourceIdentifiers": {
-      "context_config": [
-        "68639ae0d50c76376616c4b2_5f5cc99d-128e-4589-aba0-56efd546b445",
-        "68639ae0d50c76376616c4b2_b089eb60-96fa-4651-b22f-ac1db7b3d7cc",
-        "6864f31c5b4d2c262ab0b0a8_72fd299e-ac27-4297-8dbf-732b9c6057a4",
-        "68639ae0d50c76376616c4b2_8e3a6fba-d3d3-4009-a60a-734309b3711b",
-        "68639ae0d50c76376616c4b2_fa593aa5-ce9e-4288-a83d-ce6df18cef7c",
-        "68639ae0d50c76376616c4b2_bddf1b4f-ce35-45ed-89af-6994e4d0e2c9",
-        "68639ae0d50c76376616c4b2_1b3e1367-817e-4a70-bd47-d1bd0740b02c",
-        "68639ae0d50c76376616c4b2_59b4be83-bdad-467b-b185-ce83df1d6cee"
-      ],
+      "context_config": [],
       "jslib_config": [],
       "jsobject_config": [
         "68639ae0d50c76376616c4b2_5ada397b-f19d-43c1-8a5e-adb70e18274e"
       ],
-      "query_config": [
-        "68639ae0d50c76376616c4b2_cf55f611-1461-4b30-9494-9e91fd953e16",
-        "68639ae0d50c76376616c4b2_60ebaf75-672d-4a0d-8362-800e0b962822",
-        "68639ae0d50c76376616c4b2_b0b4d68a-deb9-4602-9d54-54cea0234691",
-        "68639ae0d50c76376616c4b2_6167db68-a505-439d-b9b0-8fdf439c29fd",
-        "68639ae0d50c76376616c4b2_ebcfda23-defb-4a91-83a1-70125db3de75",
-        "68639ae0d50c76376616c4b2_20e4a821-b621-46c2-be3d-df8e004bef8d",
-        "68639ae0d50c76376616c4b2_0302ac97-f239-4007-9120-cdda529be9a7",
-        "68639ae0d50c76376616c4b2_f5cb4ee0-d552-4f89-9c07-ac48204acf36",
-        "68639ae0d50c76376616c4b2_1c239ceb-e21c-4882-8b0d-72e1a1efe544",
-        "68639ae0d50c76376616c4b2_346cf2eb-db03-4ed2-9cbb-b5b3e5228fca",
-        "68639ae0d50c76376616c4b2_40edeb6a-4f3b-49fb-8e53-a3b3ba011ef9",
-        "68639ae0d50c76376616c4b2_1c17c070-c832-42f7-9b83-74d124afc5e7",
-        "68639ae0d50c76376616c4b2_b5f1bc19-fbd2-43cb-bd8c-fc1cd1bb6d1f",
-        "68639ae0d50c76376616c4b2_1066b0cf-8ebe-401e-ab3f-4d6971c1b3e0"
-      ]
+      "query_config": []
     },
     "modifiedResourceMap": {
       "actionCollectionList": [
         "JSObject1##ENTITY_SEPARATOR##Page2"
       ],
-      "actionList": [
-        "InsertQuery##ENTITY_SEPARATOR##Movies2",
-        "FindQuery##ENTITY_SEPARATOR##Movies",
-        "FindQuery##ENTITY_SEPARATOR##Movies2",
-        "DeleteQuery##ENTITY_SEPARATOR##Movies",
-        "Api11##ENTITY_SEPARATOR##Page1 Copy",
-        "JSObject1.myFun2##ENTITY_SEPARATOR##Page2",
-        "InsertQuery##ENTITY_SEPARATOR##Movies",
-        "Api1Copy##ENTITY_SEPARATOR##Page1 Copy",
-        "UpdateQuery##ENTITY_SEPARATOR##Movies",
-        "JSObject1.myFun1##ENTITY_SEPARATOR##Page2",
-        "UpdateQuery##ENTITY_SEPARATOR##Movies2",
-        "DeleteQuery##ENTITY_SEPARATOR##Movies2",
-        "Api1##ENTITY_SEPARATOR##Page1",
-        "Api1##ENTITY_SEPARATOR##Page2"
-      ],
+      "actionList": [],
       "customJSLibList": [],
-      "pageList": [
-        "Page3",
-        "Page4",
-        "Page5",
-        "Page1 Copy",
-        "Page1",
-        "Movies2",
-        "Page2",
-        "Movies"
-      ]
+      "pageList": []
     }
   },
   "pageList": [
